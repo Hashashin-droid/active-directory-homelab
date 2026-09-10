@@ -39,14 +39,17 @@ groups, domain-joined clients, and Group Policy.
 2. Windows 10 Network Configuration
    
 ![View Image](network-configuration/windows10-1.png)
+
 ![View Image](network-configuration/windows10-2.png)
 
 3. Windows Server 2019 Network Configuration
    
 ![View Image](network-configuration/win-server-1.png)
+
 ![View Image](network-configuration/win-server-2.png)
 
-### Windows 10 Network Configuration
+### Windows 10 (CLIENT01) Network Configuration
 
 ![View Image](network-configuration/windows10-3.png)
+
 ![View Image](network-configuration/windows10-4.png)
