@@ -30,8 +30,18 @@ groups, domain-joined clients, and Group Policy.
 
 ## Implementation
 
-### Build the VirtualBox Lab Environment
+### VirtualBox Network Configuration
 
-1. Configure Host-Only Adapter on VirtualBox
-2. Configure Windows 10 Network
-3. Configure windows Server 2019 Network 
+1. Host-Only Adapter Configuration
+   
+![View Image](network-configuration/virtualbox.png)
+
+2. Windows 10 Network Configuration
+   
+![View Image](network-configuration/windows10-1.png)
+![View Image](network-configuration/windows10-2.png)
+
+3. Windows Server 2019 Network Configuration
+   
+![View Image](network-configuration/win-server-1.png)
+![View Image](network-configuration/win-server-2.png)
