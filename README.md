@@ -45,3 +45,8 @@ groups, domain-joined clients, and Group Policy.
    
 ![View Image](network-configuration/win-server-1.png)
 ![View Image](network-configuration/win-server-2.png)
+
+### Windows 10 Network Configuration
+
+![View Image](network-configuration/windows10-3.png)
+![View Image](network-configuration/windows10-4.png)
