@@ -100,6 +100,16 @@ This section describes how to install and configure active directory in DC01
 
 This section describes how to set up the DHCP server inside DC01, so that CLIENT01 can dynamically obtain its IP Address
 
+1. Go Tools in Server Manager and select DHCP (DHCP services must be installed first)
+
+![View Image](dhcp-configuration/dhcp-1.png)
+
+2. Expand the server name, click IPv4, then choose New Scope
+
+![View Image](dhcp-configuration/dhcp-2.png)
+
+
+
 
 
 
