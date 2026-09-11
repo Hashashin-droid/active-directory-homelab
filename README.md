@@ -56,7 +56,9 @@ groups, domain-joined clients, and Group Policy.
 
 ### Windows Server 2019 (DC01) Network Configuration
 
+![View Image](network-configuration/win-server-3.png)
 
+![View Image](network-configuration/win-server-4.png)
 
 ### Active Directory Installation & Configuration
 
