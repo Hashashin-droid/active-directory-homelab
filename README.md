@@ -69,7 +69,13 @@ This section describes how to install and configure active directory in DC01
 ![View Image](ad-configuration/ad-1.png)
 
 Select Active Directory Services
+
+![View Image](ad-configuration/ad-2.png)
+
 Select Add Features
+
+![View Image](ad-configuration/ad-3.png)
+
 Select Install
 Promote DC01 to Domain Controller
 Select Add a New Forest, then set the Root domain name to `corp.local`
