@@ -108,6 +108,37 @@ This section describes how to set up the DHCP server inside DC01, so that CLIENT
 
 ![View Image](dhcp-configuration/dhcp-2.png)
 
+3. Click Next, then create a name for the Network Scope, and click Next
+
+![View Image](dhcp-configuration/dhcp-3.png)
+
+4. Create DHCP Pool : Configure Start Address, End Address, Subnet Mask
+
+![View Image](dhcp-configuration/dhcp-4.png)
+
+5. Add IP Exclusions (optional) : Add any specific IP Address that you want to reserve from the IP Address block
+
+![View Image](dhcp-configuration/dhcp-5.png)
+
+6. Set Lease Duration
+
+![View Image](dhcp-configuration/dhcp-6.png)
+
+7. Configure Options : Select Yes, I want to configure these options now
+
+![View Image](dhcp-configuration/dhcp-7.png)
+
+8. Configure Default Gateway (AD Static IP)
+
+![View Image](dhcp-configuration/dhcp-8.png)
+
+9. Activate Scope
+
+![View Image](dhcp-configuration/dhcp-9.png)
+
+
+
+
 
 
 
