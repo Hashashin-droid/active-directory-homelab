@@ -53,3 +53,30 @@ groups, domain-joined clients, and Group Policy.
 ![View Image](network-configuration/windows10-3.png)
 
 ![View Image](network-configuration/windows10-4.png)
+
+### Windows Server 2019 (DC01) Network Configuration
+
+
+
+### Active Directory Installation & Configuration
+
+This section describes how to install and configure active directory in DC01
+
+Server Manager -> Manage -> Add Roles and Features
+Select Active Directory Services
+Select Add Features
+Select Install
+Promote DC01 to Domain Controller
+Select Add a New Forest, then set the Root domain name to `corp.local`
+Set DSRM password
+Select Install
+
+### Setting up DHCP 
+
+This section describes how to set up the DHCP server inside DC01, so that CLIENT01 can obtain its IP Address dynamically
+
+
+
+
+
+
