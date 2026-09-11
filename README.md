@@ -68,32 +68,33 @@ This section describes how to install and configure active directory in DC01
 
 ![View Image](ad-configuration/ad-1.png)
 
-Select Active Directory Services
+2. Select Active Directory Services
 
 ![View Image](ad-configuration/ad-2.png)
 
-Select Add Features
+3. Select Add Features
 
 ![View Image](ad-configuration/ad-3.png)
 
-Select Install
+4. Select Install
 
 ![View Image](ad-configuration/ad-4.png)
 
-Promote DC01 to Domain Controller
+5. Promote DC01 to Domain Controller
 
 ![View Image](ad-configuration/ad-5.png)
 
-Select Add a New Forest, then set the Root domain name to `corp.local`
+6. Select Add a New Forest, then set the Root domain name to `corp.local`
 
 ![View Image](ad-configuration/ad-6.png)
 
-Set DSRM password
+7. Set DSRM password
 
 ![View Image](ad-configuration/ad-7.png)
 
+8. Select defaults in the following sections till you reach Prerequisites Check, then Select Install
 
-Select defaults in the following sections till you reach Prerequisites Check, then Select Install
+![View Image](ad-configuration/ad-8.png)
 
 ### Setting up DHCP 
 
