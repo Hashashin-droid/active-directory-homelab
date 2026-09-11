@@ -85,7 +85,12 @@ Promote DC01 to Domain Controller
 ![View Image](ad-configuration/ad-5.png)
 
 Select Add a New Forest, then set the Root domain name to `corp.local`
+
+![View Image](ad-configuration/ad-6.png)
+
 Set DSRM password
+
+
 Select Install
 
 ### Setting up DHCP 
