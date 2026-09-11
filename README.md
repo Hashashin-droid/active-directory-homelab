@@ -93,7 +93,7 @@ Set DSRM password
 ![View Image](ad-configuration/ad-7.png)
 
 
-Select Install
+Select defaults in the following sections till you reach Prerequisites Check, then Select Install
 
 ### Setting up DHCP 
 
