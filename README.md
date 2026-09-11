@@ -64,7 +64,10 @@ groups, domain-joined clients, and Group Policy.
 
 This section describes how to install and configure active directory in DC01
 
-Server Manager -> Dashboard -> Add Roles and Features
+1. Server Manager -> Dashboard -> Add Roles and Features
+
+![View Image](ad-configuration/ad-1.png)
+
 Select Active Directory Services
 Select Add Features
 Select Install
