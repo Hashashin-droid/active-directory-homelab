@@ -64,7 +64,7 @@ groups, domain-joined clients, and Group Policy.
 
 This section describes how to install and configure active directory in DC01
 
-Server Manager -> Manage -> Add Roles and Features
+Server Manager -> Dashboard -> Add Roles and Features
 Select Active Directory Services
 Select Add Features
 Select Install
@@ -75,7 +75,7 @@ Select Install
 
 ### Setting up DHCP 
 
-This section describes how to set up the DHCP server inside DC01, so that CLIENT01 can obtain its IP Address dynamically
+This section describes how to set up the DHCP server inside DC01, so that CLIENT01 can dynamically obtain its IP Address
 
 
 
