@@ -77,6 +77,9 @@ Select Add Features
 ![View Image](ad-configuration/ad-3.png)
 
 Select Install
+
+![View Image](ad-configuration/ad-4.png)
+
 Promote DC01 to Domain Controller
 Select Add a New Forest, then set the Root domain name to `corp.local`
 Set DSRM password
