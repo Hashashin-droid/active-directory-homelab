@@ -158,7 +158,8 @@ This section describes how to set up the DHCP server inside DC01, so that CLIENT
 
 ### Moving CLIENT01 to respective OU
 
-[Screencast from 2026-09-13 03-14-10.webm](https://github.com/user-attachments/assets/9d172b8e-e9eb-44a0-8854-d2a4285f8d50)
+[Screencast from 2026-09-13 03-17-44.webm](https://github.com/user-attachments/assets/5b0fc0f1-120b-4e95-b8b0-097823cbd77a)
+
 
 
 
