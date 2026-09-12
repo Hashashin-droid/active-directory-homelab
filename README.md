@@ -144,6 +144,11 @@ This section describes how to set up the DHCP server inside DC01, so that CLIENT
 
 [Screencast from 2026-09-13 02-31-29.webm](https://github.com/user-attachments/assets/1874b5c9-8d8d-4125-ae2b-0aba0dd87351)
 
+### Creating Users
+
+[Screencast from 2026-09-13 02-55-53.webm](https://github.com/user-attachments/assets/51157758-5348-415d-b580-0fbec627bf39)
+
+
 
 
 
