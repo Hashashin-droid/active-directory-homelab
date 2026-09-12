@@ -152,6 +152,11 @@ This section describes how to set up the DHCP server inside DC01, so that CLIENT
 
 [Screencast from 2026-09-13 03-05-03.webm](https://github.com/user-attachments/assets/eb375a39-f80f-4cb5-9ea1-653d38ff2296)
 
+### Adding Users to Groups
+
+[Screencast from 2026-09-13 03-07-59.webm](https://github.com/user-attachments/assets/237c441c-fa6e-430c-a05f-5aeb4049821d)
+
+
 
 
 
