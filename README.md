@@ -1,17 +1,21 @@
 # Active Directory Homelab
 
-Welcome to my Active Directory project repository. This repository documents my journey into a practical hands-on Active Directory home lab built with Windows Server 2019, Windows 10, and Oracle Virtualbox
+Welcome to my Active Directory Project Repository
+
+This repository documents my journey into a practical hands-on Active Directory home lab built with Windows Server 2019, Windows 10, and Oracle Virtualbox
 
 ## Objectives
 
-- Deploy an Active Directory Domain Controller
-- Configure DNS and DHCP
-- Design an Organizational Unit structure
-- Create and manage domain users
-- Create and manage security groups
-- Join a Windows client to the domain
-- Configure Group Policy Objects
-- Validate GPO application on a domain client
+- Setting up Active Directory homelab environment
+- Active Directory Installation & Configuration
+- Setting up DHCP
+- Creating Organizational Units (OUs)
+- Creating Users
+- Creating Security Groups
+- Adding Users to Groups
+- Adding Windows clients to OUs
+- Creating and Push Group Policy Objects (GPO)
+- Test the GPO
 
 ## Topology Diagram
 
@@ -135,13 +139,31 @@ This section describes how to set up the DHCP server inside DC01, so that CLIENT
 
 ### Setting Up Organizational Units (OUs)
 
+This section describes on how to create Organizational Units (OUs)
+
+Organizational Units is a logical structure inside an AD domain that holds network objects like users, computers, and groups to make management and security easier
+
+In video below, I create `Department` OU and two sub-OU : `IT Support` and `Finance`
+
 [Screencast from 2026-09-13 02-28-50.webm](https://github.com/user-attachments/assets/94e949c8-546c-4a73-9c89-3d1572f43de2)
 
+
+It is considered best practice to select "Protect container from accidental deletion", so it would prevent from retard accidentally delete the damn OU, as shown below :
+
 [Screencast from 2026-09-13 02-30-23.webm](https://github.com/user-attachments/assets/b4427f70-01c3-4cc4-8cbf-58975b897527)
+
+
+Anyway,below is the guide on how to delete an OU with "Protect container from accidental deletion":
 
 [Screencast from 2026-09-13 02-31-29.webm](https://github.com/user-attachments/assets/1874b5c9-8d8d-4125-ae2b-0aba0dd87351)
 
 ### Creating Users
+
+In the next task, i'm gonna create users in `IT Support` and `Finance`. Attributes provided such as :
+- First name
+- Last name
+- User logon name
+- Password 
 
 [Screencast from 2026-09-13 02-55-53.webm](https://github.com/user-attachments/assets/51157758-5348-415d-b580-0fbec627bf39)
 
