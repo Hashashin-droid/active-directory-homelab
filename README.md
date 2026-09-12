@@ -136,6 +136,15 @@ This section describes how to set up the DHCP server inside DC01, so that CLIENT
 
 ![View Image](dhcp-configuration/dhcp-9.png)
 
+### Setting Up Organizational Units (OUs)
+
+[Screencast from 2026-09-13 02-04-42.webm](https://github.com/user-attachments/assets/f5de1ebf-d78e-40c8-bcbc-d8003987906a)
+
+[Screencast from 2026-09-13 02-06-40.webm](https://github.com/user-attachments/assets/3e7ef04d-0677-4d57-a219-d5f6e4125a6e)
+
+
+
+
 
 
 
