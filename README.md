@@ -138,9 +138,15 @@ This section describes how to set up the DHCP server inside DC01, so that CLIENT
 
 ### Setting Up Organizational Units (OUs)
 
-[Screencast from 2026-09-13 02-04-42.webm](https://github.com/user-attachments/assets/f5de1ebf-d78e-40c8-bcbc-d8003987906a)
+[Screencast from 2026-09-13 02-28-50.webm](https://github.com/user-attachments/assets/94e949c8-546c-4a73-9c89-3d1572f43de2)
 
-[Screencast from 2026-09-13 02-06-40.webm](https://github.com/user-attachments/assets/3e7ef04d-0677-4d57-a219-d5f6e4125a6e)
+[Screencast from 2026-09-13 02-30-23.webm](https://github.com/user-attachments/assets/b4427f70-01c3-4cc4-8cbf-58975b897527)
+
+[Screencast from 2026-09-13 02-31-29.webm](https://github.com/user-attachments/assets/1874b5c9-8d8d-4125-ae2b-0aba0dd87351)
+
+
+
+
 
 
 
