@@ -164,6 +164,11 @@ This section describes how to set up the DHCP server inside DC01, so that CLIENT
 
 [Screencast from 2026-09-13 03-35-19.webm](https://github.com/user-attachments/assets/45aaa16b-3635-451b-ab38-321a0ad144ab)
 
+### Test the GPO
+
+[Screencast from 2026-09-13 03-43-38.webm](https://github.com/user-attachments/assets/c0413e27-1886-46ea-9137-6103b733bd65)
+
+
 
 
 
