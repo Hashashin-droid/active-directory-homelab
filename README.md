@@ -148,6 +148,11 @@ This section describes how to set up the DHCP server inside DC01, so that CLIENT
 
 [Screencast from 2026-09-13 02-55-53.webm](https://github.com/user-attachments/assets/51157758-5348-415d-b580-0fbec627bf39)
 
+### Creating Security Groups
+
+[Screencast from 2026-09-13 03-05-03.webm](https://github.com/user-attachments/assets/eb375a39-f80f-4cb5-9ea1-653d38ff2296)
+
+
 
 
 
