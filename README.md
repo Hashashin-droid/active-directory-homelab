@@ -160,6 +160,11 @@ This section describes how to set up the DHCP server inside DC01, so that CLIENT
 
 [Screencast from 2026-09-13 03-17-44.webm](https://github.com/user-attachments/assets/5b0fc0f1-120b-4e95-b8b0-097823cbd77a)
 
+### Create and Push Group Policy Object (GPO)
+
+[Screencast from 2026-09-13 03-35-19.webm](https://github.com/user-attachments/assets/45aaa16b-3635-451b-ab38-321a0ad144ab)
+
+
 
 
 
