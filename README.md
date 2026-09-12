@@ -1,12 +1,6 @@
 # Active Directory Homelab
 
-A hands-on Active Directory infrastructure lab built with Windows
-Server 2019, Windows 10, and Oracle VirtualBox.
-
-The purpose of this project is to build and document a small
-enterprise-style Windows domain environment, including Active Directory
-Domain Services, DNS, DHCP, Organizational Units, users, security
-groups, domain-joined clients, and Group Policy.
+Welcome to my Active Directory project repository. This repository documents my journey into a practical hands-on Active Directory home lab built with Windows Server 2019, Windows 10, and Oracle Virtualbox
 
 ## Objectives
 
@@ -20,6 +14,8 @@ groups, domain-joined clients, and Group Policy.
 - Validate GPO application on a domain client
 
 ## Topology Diagram
+
+
 
 ## IP Addressing Scheme
 
