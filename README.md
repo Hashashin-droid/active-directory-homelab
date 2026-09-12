@@ -15,7 +15,8 @@ Welcome to my Active Directory project repository. This repository documents my 
 
 ## Topology Diagram
 
-![Image](topology-diagram.png)
+
+![Image](topology/topology-diagram.png)
 
 ## IP Addressing Scheme
 
