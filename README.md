@@ -143,22 +143,22 @@ This section describes on how to create Organizational Units (OUs)
 
 Organizational Units is a logical structure inside an AD domain that holds network objects like users, computers, and groups to make management and security easier
 
-Let's create `Department` OU and two sub-OU : `IT Support` and `Finance`
+- Let's create `Department` OU and two sub-OU : `IT Support` and `Finance`
 
 <img width="1022" height="788" alt="650771649-94e949c8-546c-4a73-9c89-3d1572f43de2" src="https://github.com/user-attachments/assets/e9ecddeb-e896-4f59-bee4-c15d3bd04ddf" />
 
+- It is considered best practice to select "Protect container from accidental deletion", so it would prevent from retard accidentally delete the damn OU, as shown below :
 
+<img width="1022" height="788" alt="650771799-b4427f70-01c3-4cc4-8cbf-58975b897527" src="https://github.com/user-attachments/assets/aa3a0b43-97db-4276-b611-5d029be7aa38" />
 
-It is considered best practice to select "Protect container from accidental deletion", so it would prevent from retard accidentally delete the damn OU, as shown below :
+- Anyway,below is the guide on how to delete an OU with "Protect container from accidental deletion":
 
-[Screencast from 2026-09-13 02-30-23.webm](https://github.com/user-attachments/assets/b4427f70-01c3-4cc4-8cbf-58975b897527)
+<img width="1022" height="788" alt="650771799-b4427f70-01c3-4cc4-8cbf-58975b897527" src="https://github.com/user-attachments/assets/fb0b5951-e2c6-484a-8d10-c6b75d2fcd9c" />
 
-
-Anyway,below is the guide on how to delete an OU with "Protect container from accidental deletion":
-
-[Screencast from 2026-09-13 02-31-29.webm](https://github.com/user-attachments/assets/1874b5c9-8d8d-4125-ae2b-0aba0dd87351)
 
 ### Creating Users
+
+A user account is an object that holds all the information or attributes that define a user. With user account, a user can provide authentication to AD DS domain and access network resources
 
 In the next task, i'm gonna create users in `IT Support` and `Finance`. Attributes provided such as :
 - First name
@@ -166,11 +166,30 @@ In the next task, i'm gonna create users in `IT Support` and `Finance`. Attribut
 - User logon name
 - Password 
 
-[Screencast from 2026-09-13 02-55-53.webm](https://github.com/user-attachments/assets/51157758-5348-415d-b580-0fbec627bf39)
+<img width="1022" height="788" alt="650776173-51157758-5348-415d-b580-0fbec627bf39" src="https://github.com/user-attachments/assets/484d3be4-8208-4cb1-a577-0ffd9747f4c5" />
+
 
 ### Creating Security Groups
 
-[Screencast from 2026-09-13 03-05-03.webm](https://github.com/user-attachments/assets/eb375a39-f80f-4cb5-9ea1-653d38ff2296)
+In AD, a group is a collection of users, computers, or other group accounts that can be managed together. So, instead of assigning permissions to user individually, we can place users into a group and assign permissions to the group
+
+#### Types of Groups
+- **Security** -  Use these to assign permissions to shared network resources like folders, printers, and files. You can also use them to apply Group Policy settings
+- **Distribution** - Use these only for email distribution lists in Microsoft Exchange or Outlook. You cannot use them to assign Windows security permissions
+
+#### Group Scope
+Group scope defines where a group's permissions apply and what members the group can contain:
+- **Domain local** - Use these to assign permission to resources within their domain
+- **Global** -  Use these to organize users or computers who share the same job roles or department tasks inside a single domain
+- **Universal** -  Use these in large, multi-domain forests to combine groups across different domains
+
+In the next task, i create two additional Global Security Groups based on deparmental roles:
+- `Supervisors` in Finance
+- `IT Support` in Helpdesk
+Both groups were configured with Global scope and Security type, Security is chosen because these groups are intended to be used for access control, while Global scope allow grouping users based on roles within the same AD domain
+
+<img width="1022" height="788" alt="650777608-eb375a39-f80f-4cb5-9ea1-653d38ff2296" src="https://github.com/user-attachments/assets/45409f1c-2e50-405f-920f-5f3b3a7517ee" />
+
 
 ### Adding Users to Groups
 
