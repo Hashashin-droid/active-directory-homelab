@@ -183,7 +183,7 @@ Group scope defines where a group's permissions apply and what members the group
 - **Global** -  Use these to organize users or computers who share the same job roles or department tasks inside a single domain
 - **Universal** -  Use these in large, multi-domain forests to combine groups across different domains
 
-In the next task, i create two additional Global Security Groups based on deparmental roles:
+In the next task, I create two additional Global Security Groups based on deparmental roles:
 - `Supervisors` in Finance
 - `IT Support` in Helpdesk
 Both groups were configured with Global scope and Security type, Security is chosen because these groups are intended to be used for access control, while Global scope allow grouping users based on roles within the same AD domain
@@ -193,19 +193,31 @@ Both groups were configured with Global scope and Security type, Security is cho
 
 ### Adding Users to Groups
 
-[Screencast from 2026-09-13 03-07-59.webm](https://github.com/user-attachments/assets/237c441c-fa6e-430c-a05f-5aeb4049821d)
+Next, I added the previously created user accounts to their corresponding security groups
 
-### Moving CLIENT01 to respective OU
+<img width="1022" height="788" alt="650777925-237c441c-fa6e-430c-a05f-5aeb4049821d" src="https://github.com/user-attachments/assets/9ad5c852-38e7-4eac-9710-e9f1ef82fb91" />
 
-[Screencast from 2026-09-13 03-17-44.webm](https://github.com/user-attachments/assets/5b0fc0f1-120b-4e95-b8b0-097823cbd77a)
+### Moving CLIENT01 to the respective OU
+
+I moved `CLIENT01` into `Finance` so that it can be used to demonstrate the implementation of Group Policy Objects (GPOs) later in the project
+<img width="1022" height="788" alt="650779081-5b0fc0f1-120b-4e95-b8b0-097823cbd77a" src="https://github.com/user-attachments/assets/cf94fd98-3067-4494-b54f-a5db7be90ddf" />
 
 ### Create and Push Group Policy Object (GPO)
 
-[Screencast from 2026-09-13 03-35-19.webm](https://github.com/user-attachments/assets/45aaa16b-3635-451b-ab38-321a0ad144ab)
+Group Policy is one of the core features that make AD a powerful tool for enterprise IT management. With it, IT administrators can define rules and configuration settings that apply uniformly across users and devices (from password policies to desktop configurations) without having to configure each machine individually
+
+For demonstration purposes, I created a GPO that displays a message and notification when users log in. This provides a simple way to verify that the GPO is applied successfully.
+
+<img width="1022" height="789" alt="650781268-45aaa16b-3635-451b-ab38-321a0ad144ab" src="https://github.com/user-attachments/assets/418bd2d2-9100-4677-a49d-4f3a7faf26c6" />
 
 ### Test the GPO
 
-[Screencast from 2026-09-13 03-43-38.webm](https://github.com/user-attachments/assets/c0413e27-1886-46ea-9137-6103b733bd65)
+The GPO has been successfully applied to the virtual machine `CLIENT01`, as demonstrated below.
+
+[650782083-c0413e27-1886-46ea-9137-6103b733bd65.webm](https://github.com/user-attachments/assets/fdfd6a15-8bb6-4917-b1d6-ee1f748e5469)
+
+
+
 
 
 
