@@ -143,9 +143,10 @@ This section describes on how to create Organizational Units (OUs)
 
 Organizational Units is a logical structure inside an AD domain that holds network objects like users, computers, and groups to make management and security easier
 
-In video below, I create `Department` OU and two sub-OU : `IT Support` and `Finance`
+Let's create `Department` OU and two sub-OU : `IT Support` and `Finance`
 
-[Screencast from 2026-09-13 02-28-50.webm](https://github.com/user-attachments/assets/94e949c8-546c-4a73-9c89-3d1572f43de2)
+<img width="1022" height="788" alt="650771649-94e949c8-546c-4a73-9c89-3d1572f43de2" src="https://github.com/user-attachments/assets/e9ecddeb-e896-4f59-bee4-c15d3bd04ddf" />
+
 
 
 It is considered best practice to select "Protect container from accidental deletion", so it would prevent from retard accidentally delete the damn OU, as shown below :
